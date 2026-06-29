@@ -7,7 +7,7 @@ public class Funcionario {
 
     public Funcionario(String nome, double salarioBase) {
         this.nome = nome;
-        this.salarioBase = salarioBase;
+        setSalarioBase(salarioBase);
     }
 
     // O método base que será "polimorfizado" depois
